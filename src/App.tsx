@@ -1,18 +1,5 @@
 import './App.css'
 
-function Canvas() {
-  return <canvas id='nigger'></canvas>
-}
-
-function draw() {
-  const canvas: HTMLCanvasElement | any = document.getElementById('background')
-
-  const ctx: CanvasRenderingContext2D = canvas.getContext("2d");
-
-  console.log("Drawing my shit")
-  ctx.fillRect(0, 0, 10, 10)
-}
-
 function App() {
   return (
    <>
