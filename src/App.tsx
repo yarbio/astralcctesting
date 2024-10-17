@@ -1,10 +1,19 @@
-import { useState } from 'react'
 import './App.css'
 
+function Canvas() {
+  return <canvas id='nigger'></canvas>
+}
+
+function draw() {
+  const canvas: HTMLCanvasElement | any = document.getElementById('background')
+
+  const ctx: CanvasRenderingContext2D = canvas.getContext("2d");
+
+  console.log("Drawing my shit")
+  ctx.fillRect(0, 0, 10, 10)
+}
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
    <>
       <div className='flex justify-between m-10 backdrop-blur-xl'>
