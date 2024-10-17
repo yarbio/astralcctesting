@@ -1,4 +1,9 @@
 * {
   color: rgb(255, 255, 255);
   background: rgb(27, 27, 27);
+  scroll-behavior: smooth;
+}
+
+a {
+  font-family: 'Space Grotesk';
 }
