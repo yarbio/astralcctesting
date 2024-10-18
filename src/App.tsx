@@ -19,14 +19,14 @@ function App() {
       <div className='fixed bg-white/0 backdrop-blur-sm max-w-[100%] left-0 right-0 flex justify-between py-7 px-10'>
         <div className='flex bg-transparent items-center'><h1 className='bg-transparent select-none text-center'>ASTRALIS</h1></div>
         <div className='flex bg-transparent space-x-10 items-center'>
-          <a className='bg-transparent'>HOME</a>
-          <a className='bg-transparent'>FEATURES</a>
+          <a href='#home' className='bg-transparent'>HOME</a>
+          <a href='#features' className='bg-transparent'>FEATURES</a>
           <a className='bg-transparent'>PRICING</a>
         </div>
         <div><button className='bg-white text-black p-2 rounded-3xl font-sg'>JOIN US</button></div>
       </div>
 
-      <div className='flex max-w-[100%] w-[100vw] h-[70%] justify-center'>
+      <div id='home' className='flex max-w-[100%] w-[100vw] h-[70%] justify-center'>
         <div className='mt-[15vh] w-[60%]'>
           <div>
             <div className='flex justify-between'>
