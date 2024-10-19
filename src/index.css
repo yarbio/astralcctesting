@@ -6,4 +6,9 @@
 
 a {
   font-family: 'Space Grotesk';
+  background-color: transparent;
+}
+
+span {
+  background-color: transparent;
 }
