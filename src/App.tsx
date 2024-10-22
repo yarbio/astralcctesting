@@ -19,7 +19,7 @@ function TierCard(props: { title: string, preferred: boolean, description: strin
       <div className='border-[2px] transition hover:scale-105 hover:-translate-y-0.5 min-w-70 w-[22rem] max-w-96 m-2 rounded-xl'>
         <div className='flex flex-col justify-between bg-transparent m-4 max-h-[21rem] h-[21rem]'>
           <div className='bg-transparent'>
-            <h1 className='select-none bg-transparent font-sg font-semibold text-3xl text-left'><span className='text-lg mr-0.5'>$</span>{props.price}<span className='text-lg mr-0.5'> {props.title == "lifetime" ? props.title : "per " + props.title}</span></h1>
+            <h1 className='select-none bg-transparent font-sg font-semibold text-3xl text-left'><span className='text-lg mr-0.5'>$</span>{props.price}<span className='text-lg mr-0.5'> {props.title == "lifetime" ? props.title : "/" + props.title}</span></h1>
             <p className='font-sg font-normal'>{props.description}</p>
 
           </div>
@@ -36,7 +36,7 @@ function TierCard(props: { title: string, preferred: boolean, description: strin
       : <div className='border-[2px] transition hover:scale-105 hover:-translate-y-0.5 min-w-70 w-[22rem] max-w-96 m-2 rounded-xl'>
         <div className='flex flex-col justify-between bg-transparent m-4 max-h-[21rem] h-[21rem]'>
           <div className='bg-transparent'>
-            <h1 className='select-none bg-transparent font-sg font-semibold text-3xl text-left'><span className='text-lg mr-0.5'>$</span>{props.price}<span className='text-lg mr-0.5'> {props.title == "lifetime" ? props.title : "per " + props.title}</span></h1>
+            <h1 className='select-none bg-transparent font-sg font-semibold text-3xl text-left'><span className='text-lg mr-0.5'>$</span>{props.price}<span className='text-lg mr-0.5'> {props.title == "lifetime" ? props.title : "/" + props.title}</span></h1>
             <p className='font-sg font-normal'>{props.description}</p>
 
           </div>
